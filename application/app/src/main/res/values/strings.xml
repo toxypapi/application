@@ -1,0 +1,279 @@
+<resources>
+    <string name="app_name">Filleul</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">336188753219537</string>
+    <string name="title_activity_info_perso">InfoPerso</string>
+    <string name="intro">        \t\t\t\t\t\t\t\t\tBienvenue\nSur le réseau D\'entraide\n\t\t entre Etudiant!!!</string>
+    <string name="in1">Bienvenue</string>
+    <string name="in2">sur le réseau d\'entraide</string>
+    <string name="in3">entre etudiants!</string>
+    <string name="statut">Filleul/Parain</string>
+    <string name="bouton">Continuer</string>
+    <string name="ville">Ville</string>
+    <string name="etablissement">Etablissement</string>
+    <string name="img">image</string>
+    <string name="phrase_progress">Attribution automatique....</string>
+    <string name="boutonRoulette">valider</string>
+    <string name="boutonNext">Next</string>
+    <string name="acceuil">Acceuil</string>
+    <string name="title_activity_feeling">Feeling</string>
+    <string name="logo">logo</string>
+    <string name="etape1">Je souhaite devenir : </string>
+    <string name="etape2">J\'ai besoin : </string>
+    <string name="etape3">Mes kiffes : </string>
+    <string name="etape4">\t\t\t\t\t\t\t\tChoix de votre  établissement scolaire : </string>
+    <string name="etape5">Un parrain/filleul va vous être attribuer!</string>
+    <string name="Name">name </string>
+    <string name="Firstname">Firstname </string>
+    <string name="textStatut">Statut </string>
+    <string name="universiter">Université </string>
+    <string name="relation">Relation </string>
+    <string name="kiff"></string>
+    <string name="AttenteParrain"> Merci de vouloir aidé les nouveaux arrivant dans ta fac de pouvoir être acceuilli avec dignité </string>
+    <string name="AttenteFilleul"> Hééé nous allons transformés ta fac à ton image </string>
+    <string name="NewsUniversity"> Que se passe t\'il dans ta fac </string>
+
+
+
+
+    <string name="cancelled">Cancelled</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="ok">OK</string>
+    <string name="hello_user">Hello %1$s!</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">Post ID: %1$s</string>
+    <string name="error">Error</string>
+    <string name="status_update">Updating status for %1$s at %2$s</string>
+    <string name="photo_post">Photo Post</string>
+    <string name="you_picked">You picked:</string>
+    <string name="no_friends_selected">&lt;No friends selected&gt;</string>
+    <string name="no_place_selected">&lt;No place selected&gt;</string>
+    <string name="pick_seattle_place">Pick a Seattle Place</string>
+    <string name="exception">Exception: %1$s</string>
+
+    <string name="com_facebook_loginview_log_in_button_long">Login with Facebook</string>
+    <string name="com_facebook_loginview_log_out_button">Logout</string>
+
+
+
+
+    <string name="gcm_send_message">Token retrieved and sent to server! You can now use gcmsender to
+        send downstream messages to this app.</string>
+    <string name="registering_message">Generating InstanceID token...</string>
+    <string name="token_error_message">An error occurred while either fetching the InstanceID token,
+        sending the fetched token to the server or subscribing to the PubSub topic. Please try
+        running the sample again.</string>
+
+
+
+
+
+    <string-array name="Loisirs">
+        <item>Selectionner votre loisirs</item>
+        <item>Lecture</item>
+        <item>Sortie</item>
+        <item>Apero</item>
+        <item>Sports</item>
+    </string-array>
+    <string-array name="Attente">
+        <item>Selectionner votre besoin</item>
+        <item>Aide Scolaire</item>
+        <item>Vie étudiante</item>
+        <item>Un melange des deux</item>
+    </string-array>
+
+    <string name="Loisirs">Selection ton kiffe:</string>
+    <string name="Attente">tes envies???</string>
+    <string name="questionRecherche">Le Parrain ou le filleul qui vous correspond doit :</string>
+
+    <string-array name="status">
+        <item>Quel est votre statut</item>
+        <item>Parrain</item>
+        <item>Filleul</item>
+    </string-array>
+    <string-array name="fac">
+        <item>Universite de Strasbourg</item>
+        <item>Universite de Haute Alsace</item>
+        <item>Universite of Bordeaux 1</item>
+        <item>Universite Michel Montaigne</item>
+        <item>Universite Montesquieu</item>
+        <item>Universite Ségalen</item>
+        <item>Universite de Pau et du Pays de lAdour</item>
+        <item>Universite Blaise Pascal</item>
+        <item>Universite dAuvergne</item>
+        <item>Universite de Rennes 1</item>
+        <item>Universite de Haute Bretagne</item>
+        <item>Universite de Bretagne occidentale</item>
+        <item>Universite de Bretagne sud</item>
+        <item>Universite de Bourgogne</item>
+        <item>Universite dOrléans</item>
+        <item>Universite Rabelais</item>
+        <item>Universite de Reims</item>
+        <item>Universite Paoli</item>
+        <item>Universite de Franche-Comté</item>
+        <item>Universite Technologique de Belfort-Montbéliard</item>
+        <item>Universite de Paris 1 Panthéon-Sorbonne</item>
+        <item>Universite de Paris 2 Panthéon-Assas</item>
+        <item>Universite de Paris III Sorbonne-Nouvelle</item>
+        <item>Universite de Paris IV Sorbonne</item>
+        <item>Universite Descartes Paris 5</item>
+        <item>Universite Curie, Paris 6</item>
+        <item>Universite Diderot Paris 7</item>
+        <item>Universite catholique de Paris</item>
+        <item>Universite Paris VIII Vincennes à Saint Denis</item>
+        <item>Universite Paris Ouest Paris X Nanterre</item>
+        <item>Universite Paris est Créteil Val de Marne - Paris XII</item>
+        <item>Universite Paris XIII nord</item>
+        <item>Universite Paris-Est Marne-la-Vallée</item>
+        <item>Universite de Cergy-Pontoise</item>
+        <item>Universite de Versailles- Saint-Quentin-en-Yvelines</item>
+        <item>Universite Evry - Val Essonne</item>
+        <item>Universite Paris sud - Paris XI</item>
+        <item>Universite de Montpellier 1</item>
+        <item>Universite de Montpellier 2</item>
+        <item>Universite Paul Valery Montpellier 3</item>
+        <item>Universite de Nimes</item>
+        <item>Universite de Perpignan</item>
+        <item>Universite de Limoges</item>
+        <item>Universite Paul Verlaine Metz</item>
+        <item>Universite Poincaré -  Nancy 1</item>
+        <item>Universite de Nancy 2</item>
+        <item>Universite de Toulouse 1 - Capitole</item>
+        <item>Universite de Toulouse 2 - Le Mirail</item>
+        <item>Universite de Toulouse 3 Paul Sabatier</item>
+        <item>Institut Catholique de Toulouse</item>
+        <item>Universite Champollion</item>
+        <item>Universite Artois</item>
+        <item>Universite de Lille 1</item>
+        <item>Universite de Lille 2 - Droit et Santé</item>
+        <item>Universite Charles de Gaulle - Lille III</item>
+        <item>Universite Catholique de Lille</item>
+        <item>Universite du Littoral</item>
+        <item>Universite de Valenciennes</item>
+        <item>Universite de Basse Normandie</item>
+        <item>Universite du Havre</item>
+        <item>Universite de Rouen</item>
+        <item>Universite Angers</item>
+        <item>Universite catholique de lOuest</item>
+        <item>Universite du Maine</item>
+        <item>Universite de Nantes</item>
+        <item>Universite de Picardie-Jules Verne</item>
+        <item>Universite de technologie de Compiègne</item>
+        <item>Universite de La Rochelle</item>
+        <item>Universite de Poitiers</item>
+        <item>Universite de Provence Aix-Marseille I</item>
+        <item>Universite de la Méditerrannée Aix-Marseille II</item>
+        <item>Universite Paul Cézanne Aix-Marseille III</item>
+        <item>Universite Avignon</item>
+        <item>Universite de Nice Sophia-Antipolis</item>
+        <item>Universite de Toulon</item>
+        <item>Universite de Savoie</item>
+        <item>Universite Joseph Fourier</item>
+        <item>Universite Pierre Mendès-France</item>
+        <item>Universite Stendhal Grenoble III</item>
+        <item>Universite Claude Bernard - Lyon I</item>
+        <item>Universite Lumière - Lyon II</item>
+        <item>Universite Jean Moulin - Lyon III</item>
+        <item>Universite catholique de Lyon</item>
+        <item>Universite Jean Monnet</item>
+    </string-array>
+
+    <string name="status">cool</string>
+    <string name="Bienvenue">Bienvenue Filleul</string>
+    <string name="title_activity_deuxieme">Deuxieme</string>
+    <string name="title_activity_troisieme">Troisieme</string>
+    <string name="title_activity_quartieme">Quartieme</string>
+    <string name="title_activity_cinquieme">Cinquieme</string>
+    <string name="title_activity_je_suis">Je_suis</string>
+    <string name="title_activity_besoin">Besoin</string>
+    <string name="title_activity_kiffes">Kiffes</string>
+    <string name="title_activity_lieux">Lieux</string>
+    <string name="title_activity_attribution">Attribution</string>
+    <string name="title_activity_bingo">Bingo</string>
+    <string name="title_activity_discution">Discution</string>
+    <string name="je_suis">Je suis :</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="Parrain">Parrain</string>
+    <string name="parrain">Parrain</string>
+    <string name="Filleul">Filleul</string>
+    <string name="filleul">Filleul</string>
+    <string name="BoutonContinu">Continuer</string>
+    <string name="aideScolaire">Aide Scolaire</string>
+    <string name="integration">Faire des rencontres </string>
+    <string name="jai_besoin">Votre besoin :</string>
+    <string name="title_activity_inscri">Inscri</string>
+    <string name="sport">Sport</string>
+    <string name="musique">Musique</string>
+    <string name="gaming">Gaming</string>
+    <string name="virer">Virée en ville</string>
+    <string name="culture">Arts/Lecture</string>
+    <string name="danse">Danser</string>
+    <string name="lieux">Quelle Université fréquentez vous?</string>
+    <string name="title_activity_acceuil">Acceuil</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_user_list">UserListActivity</string>
+        <string name="title_activity_fil_actuality">filActuality</string>
+        <string name="title_activity_profil_user">ProfilUser</string>
+    <string name="title_activity_new_chat">NewChat</string>
+        <string name="title_activity_attente_parrain">AttenteParrain</string>
+        <string name="title_activity_attente_filleul">AttenteFilleul</string>
+        <string name="title_activity_liste_inscrit">ListeInscrit</string>
+        <string name="title_activity_news_university">NewsUniversity</string>
+    <string name="RELATIONDUPARRAIN" />
+        <string name="title_activity_file_news">FileNews</string>
+    <string name="sexe">sexe:</string>
+
+
+
+
+
+
+                                            <!-- Menu -->
+
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+                                        <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Find People</item>
+        <item>Photos</item>
+        <item>Communities</item>
+        <item>Pages</item>
+        <item>What\'s Hot</item>
+    </string-array>
+
+                                    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+
+    <string name="menuprofile">Profile</string>
+    <string name="menuhome">Home</string>
+    <string name="menumessage">Message</string>
+    <string name="menusetting">Settings</string>
+    <string name="menuinvite">Invite</string>
+    <string name="title_activity_ajout_info">AjoutInfo</string>
+    <string name="title_activity_listnews">listnews</string>
+
+</resources>

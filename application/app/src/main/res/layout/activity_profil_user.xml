@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.juniorkabore.filleul.ProfilUser">
+
+
+    <com.facebook.login.widget.ProfilePictureView
+        android:id="@+id/profilePicture"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/NAME"
+        android:layout_toStartOf="@+id/NAME"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@+id/UNIVERSITER" />
+
+    <TextView
+        android:id="@+id/NAME"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Name:"
+        android:layout_above="@+id/relation"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Name"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/NAME"
+        android:layout_toEndOf="@+id/NAME"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp" />
+
+    <TextView
+        android:id="@+id/RELATION"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Relation:"
+        android:layout_alignTop="@+id/relation"
+        android:layout_toRightOf="@+id/profilePicture"
+        android:layout_toEndOf="@+id/profilePicture"
+        android:layout_above="@+id/textStatut" />
+    <TextView
+        android:id="@+id/relation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/relation"
+        android:layout_below="@+id/Name"
+        android:layout_alignLeft="@+id/Name"
+        android:layout_alignStart="@+id/Name"
+        android:layout_marginTop="20dp" />
+
+
+    <TextView
+        android:id="@+id/TEXTSTATUT"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Je suis:"
+        android:layout_alignLeft="@+id/RELATION"
+        android:layout_alignStart="@+id/RELATION"
+        android:layout_alignTop="@+id/textStatut"
+        android:layout_alignBottom="@+id/textStatut" />
+
+
+
+    <TextView
+        android:id="@+id/textStatut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textStatut"
+        android:layout_below="@+id/relation"
+        android:layout_alignLeft="@+id/relation"
+        android:layout_alignStart="@+id/relation"
+        android:layout_marginTop="20dp" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/UNIVERSITER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Université:"
+        android:layout_alignTop="@+id/textUniversiter"
+        android:layout_alignLeft="@+id/TEXTSTATUT"
+        android:layout_alignStart="@+id/TEXTSTATUT" />
+
+
+    <TextView
+        android:id="@+id/textUniversiter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/universiter"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/TEXTSTATUT"
+        android:layout_alignLeft="@+id/textStatut"
+        android:layout_alignStart="@+id/textStatut" />
+
+
+    <!--<Button
+        android:id="@+id/validerprofile"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:onClick="valider"
+        android:text="@string/boutonRoulette"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/profilePicture"
+        android:layout_toEndOf="@+id/profilePicture"
+        android:layout_marginBottom="59dp" />-->
+
+</RelativeLayout>

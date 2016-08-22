@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.juniorkabore.filleul.Lieux">
+
+
+
+
+
+    <TextView
+        android:id="@+id/pageEtape4"
+        style="@style/intro1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="@string/etape4" />
+
+    <Button
+        android:id="@+id/bouton5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/univ"
+        android:layout_below="@+id/univ"
+        android:layout_marginTop="17dp"
+        android:background="#90BDE9"
+        android:text="@string/bouton"
+        android:textStyle="bold" />
+
+    <AutoCompleteTextView
+        android:id="@+id/univ"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pageEtape4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="128dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </AutoCompleteTextView>
+
+</RelativeLayout>

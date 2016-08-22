@@ -1,0 +1,1 @@
+include ':app', ':okhttp-1.2.1-jar-with-dependencies', ':okio-1.0.1', ':samples:SwitchUserSample', ':samples:Scrumptious', ':facebook', ':samples:RPSSample', ':samples:MessengerSendSample', ':samples:HelloFacebookSample'

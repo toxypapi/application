@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.juniorkabore.filleul.Kiffes">
+
+
+
+
+    <TextView
+        android:id="@+id/pageEtape3"
+        style="@style/intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="@string/etape3" />
+
+    <Button
+        android:id="@+id/bouton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bouton"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:background="#90BDE9"/>
+
+    <CheckBox
+        android:id="@+id/sport1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pageEtape3"
+        android:layout_below="@+id/pageEtape3"
+        android:layout_marginTop="94dp"
+        android:text="@string/sport" />
+
+    <CheckBox
+        android:id="@+id/musique1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sport1"
+        android:layout_below="@+id/sport1"
+        android:text="@string/musique" />
+
+    <CheckBox
+        android:id="@+id/gaming1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/musique1"
+        android:layout_below="@+id/musique1"
+        android:text="@string/gaming"/>
+
+    <CheckBox
+        android:id="@+id/danse1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gaming1"
+        android:layout_below="@+id/gaming1"
+        android:text="@string/danse" />
+
+
+    <CheckBox
+        android:id="@+id/virer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/danse1"
+        android:layout_below="@+id/danse1"
+        android:text="@string/virer" />
+
+
+
+    <CheckBox
+        android:id="@+id/culture1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/virer1"
+        android:layout_below="@+id/virer1"
+        android:text="@string/culture" />
+
+</RelativeLayout>
